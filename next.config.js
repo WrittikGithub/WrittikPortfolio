@@ -7,6 +7,7 @@ module.exports = {
   output: 'export',
   basePath: basePath,
   assetPrefix: basePath ? `${basePath}/` : '',
+  trailingSlash: true,
   images: {
     unoptimized: true,
     remotePatterns: [
@@ -30,4 +31,6 @@ module.exports = {
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],
   },
+  // Skip API routes during static export
+  distDir: '.next',
 }
