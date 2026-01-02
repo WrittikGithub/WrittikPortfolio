@@ -1,10 +1,14 @@
 const path = require('path')
  
+const isGithubActions = process.env.GITHUB_ACTIONS === 'true'
+const basePath = isGithubActions ? '/WrittikPortfolio' : ''
+
 module.exports = {
-  sassOptions: {
-    includePaths: [path.join(__dirname, 'styles')],
-  },
+  output: 'export',
+  basePath: basePath,
+  assetPrefix: basePath ? `${basePath}/` : '',
   images: {
+    unoptimized: true,
     remotePatterns: [
       {
         protocol: 'https',
@@ -22,5 +26,8 @@ module.exports = {
         pathname: '**',
       },
     ],
+  },
+  sassOptions: {
+    includePaths: [path.join(__dirname, 'styles')],
   },
 }

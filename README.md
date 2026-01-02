@@ -73,21 +73,28 @@ Update your information in `utils/data/`:
 - `certifications.js` - Certifications
 - `educations.js` - Education background
 
+## 🌐 Live Demo
+
+🚀 **Live Portfolio**: [https://writtikgithub.github.io/WrittikPortfolio/](https://writtikgithub.github.io/WrittikPortfolio/)
+
 ## 🌐 Deployment
 
-### Deploy to Vercel (Recommended)
+### GitHub Pages (Current)
+
+The portfolio is automatically deployed to GitHub Pages using GitHub Actions. Every push to the `main` branch triggers a new deployment.
+
+**Setup Instructions:**
+1. Go to your repository Settings → Pages
+2. Under "Source", select "GitHub Actions"
+3. The workflow will automatically build and deploy your site
+
+### Deploy to Vercel (Alternative)
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/WrittikGithub/WrittikPortfolio)
 
 1. Push your code to GitHub
 2. Import repository on Vercel
 3. Deploy automatically
-
-### Deploy to Netlify
-
-1. Connect your GitHub repository
-2. Build command: `npm run build`
-3. Publish directory: `.next`
 
 ## 📧 Contact
 
