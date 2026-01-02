@@ -6,7 +6,7 @@ const basePath = isGithubActions ? '/WrittikPortfolio' : ''
 module.exports = {
   output: 'export',
   basePath: basePath,
-  assetPrefix: basePath ? `${basePath}/` : '',
+  assetPrefix: basePath,
   trailingSlash: true,
   images: {
     unoptimized: true,
@@ -31,6 +31,5 @@ module.exports = {
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],
   },
-  // Skip API routes during static export
   distDir: '.next',
 }
