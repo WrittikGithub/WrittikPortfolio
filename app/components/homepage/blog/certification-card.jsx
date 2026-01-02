@@ -2,6 +2,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { FaCertificate, FaExternalLinkAlt, FaAward } from 'react-icons/fa';
+import { getImagePath } from '@/utils/getImagePath';
 
 function CertificationCard({ certification }) {
 
@@ -19,7 +20,7 @@ function CertificationCard({ certification }) {
         <div className="relative h-48 lg:h-56 w-full overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-t from-[#0a0e27] via-transparent to-transparent z-10"></div>
           <Image
-            src={certification?.image || '/png/placeholder.png'}
+            src={getImagePath(certification?.image || '/png/placeholder.png')}
             height={1080}
             width={1920}
             alt={certification?.title || 'Certification'}
