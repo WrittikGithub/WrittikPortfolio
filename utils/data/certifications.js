@@ -39,6 +39,16 @@ export const certifications = [
     certificateUrl: "/image/Certificate/Introduction to Internet of Things.pdf",
     credentialId: "IOT",
   },
+  {
+    id: 5,
+    title: "Advance Excel",
+    issuer: "Microsoft(Great Learning)",
+    issueDate: "2026",
+    description: "Learned about the advance Microsoft Excel and how it works with AI.",
+    image: "/image/Certificate/Excel_Beg_To_Adv.png",
+    certificateUrl: " https://www.mygreatlearning.com/certificate/CLEGEXVN",
+    credentialId: "CLEGEXVN",
+  },
   // Add more certifications here
   // {
   //   id: 2,
