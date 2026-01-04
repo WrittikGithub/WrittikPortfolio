@@ -124,7 +124,7 @@ function HeroSection() {
                   <div className="text-xs text-[#8fa3c7] mt-1">Skills</div>
                 </div>
                 <div className="text-center p-3 rounded-xl bg-[#1a2a4a]/30 border border-[#2a3a5a]/30 backdrop-blur-sm">
-                  <div className="text-2xl lg:text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-amber-400">3+</div>
+                  <div className="text-2xl lg:text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-amber-400">6+</div>
                   <div className="text-xs text-[#8fa3c7] mt-1">Certs</div>
                 </div>
                 <div className="text-center p-3 rounded-xl bg-[#1a2a4a]/30 border border-[#2a3a5a]/30 backdrop-blur-sm">
