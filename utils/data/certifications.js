@@ -49,6 +49,16 @@ export const certifications = [
     certificateUrl: " https://www.mygreatlearning.com/certificate/CLEGEXVN",
     credentialId: "CLEGEXVN",
   },
+  {
+    id: 6,
+    title: "MEAN Stack Development",
+    issuer: "Microsoft(Great Learning)",
+    issueDate: "2026",
+    description: "Comprehensive training in Angular fundamentals, hooks, context API, and component architecture. Developed proficiency in building dynamic.",
+    image: "/image/Certificate/MEAN.png",
+    certificateUrl: "https://www.mygreatlearning.com/certificate/NQQSTKGN",
+    credentialId: "NQQSTKGN",
+  },
   // Add more certifications here
   // {
   //   id: 2,
